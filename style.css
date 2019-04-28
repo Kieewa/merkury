@@ -1,0 +1,72 @@
+body {
+	background-repeat: no-repeat;
+	background-image: url('img/tło.jpg');
+	background-size: cover;
+}
+
+.photo {
+	width:80%;
+	height: 50vh;
+	display:block;
+	transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+.photo:hover {
+	border-radius: 12.5px;
+	transform: rotate(4deg);
+}
+
+.oferta{
+	margin: 305px auto;
+	text-align: center;
+	height: 200px;
+	color: rgb(13, 13, 13);
+	font-size: 75px;
+}
+
+.block{
+	height: 300px;
+	width:25%;
+	float: left;
+	text-align: center;
+
+}
+.sticky{
+	position: fixed;
+	clear:both;
+	top:0;
+	left:0;
+	z-index: 9999;
+	width: 100%;
+}
+
+.tabela{
+	height: 700px;
+	margin: 300px auto;
+
+}
+table{ 
+	margin: 0 auto;
+	background-color: gray;
+	border-collapse: collapse
+	border: 5px solid black;
+}
+td{
+	width: 400px;
+	border: 2px solid black;
+	font-weight: bold;
+}
+.mapa{
+	height: 400px;
+	width: 100%;
+	margin: 55px auto;
+	text-align: center;
+
+}
+.kontakt{
+	font-size:30px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	min-height: 60vh;
+}
